@@ -1,3 +1,10 @@
+:root {
+  --font-serif: ui-serif, 'New York', serif;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, blinkmacsystemfont, 'Segoe UI', 'Roboto', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', 'Source Code Pro', 'Cascadia Code', 'Consolas', 'Ubuntu Mono', 'Cousine', monospace;
+  --font-size-base: 1.125rem;
+}
+
 h1 {
   font-size: 2.2em;
   margin-top: 0;
@@ -64,21 +71,9 @@ address {
   font-style: normal;
 }
 
-a[href^='mailto\:']::before {
-  content: '📧 ';
-}
-
-a[href^='tel\:']::before {
-  content: '📞 ';
-}
-
-a[href^='sms\:']::before {
-  content: '💬 ';
-}
-
 mark {
   background-color: var(--highlight);
   border-radius: 2px;
   padding: 0 2px 0 2px;
-  color: #000;
+  color: var(--nord0);
 }
