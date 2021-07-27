@@ -14,7 +14,7 @@ $$('*').forEach((el) => (el.style = ''))
 document.head.append(
   createElement('link', {
     rel: 'stylesheet',
-    href: 'https://cdn.jsdelivr.net/npm/water.css@2/out/water.css'
+    href: 'https://cdn.jsdelivr.net/gh/firexcy/icewater.css@master/out/water.css'
   }),
   !$$('meta[name="viewport"]').length && createElement('meta', {
     name: 'viewport',
